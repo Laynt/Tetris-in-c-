@@ -3,7 +3,7 @@
 #include <time.h>
 #include "AdjustGame.h"
 
-#define ROWS 21
+#define ROWS 25
 #define COLS 15
 
 const int Shape[7][4][4][4]={
@@ -179,7 +179,7 @@ int Bord(int board[ROWS][COLS]){ // verify if the shape is out of the border or 
 }
 
 int SkyMax(int board[ROWS][COLS]){      //Check if the shape reach the sky
-     for(int i=0;i<2;i++){
+     for(int i=0;i<4;i++){
         for(int j=1;j<COLS-2;j++){
             if(board[i][j] != 0)return 1;
 
@@ -312,7 +312,7 @@ return '#';
 void boardDisplay(int board[ROWS][COLS]){ 
 int i,j,x;
 	printf("\n");
-	for(i=0;i<ROWS-1;i++){
+	for(i=4;i<ROWS-1;i++){
 		printf("           |");
 	for(j=0;j<COLS;j++){
 		x=board[i][j];
