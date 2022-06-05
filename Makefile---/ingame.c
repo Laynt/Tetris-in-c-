@@ -32,7 +32,7 @@ int Bord(int board[ROWS][COLS]){ // verify if the shape is out of the border or 
 }
 
 int SkyMax(int board[ROWS][COLS]){      //Check if the shape reach the sky
-     for(int i=0;i<2;i++){
+     for(int i=0;i<4;i++){
         for(int j=1;j<COLS-2;j++){
             if(board[i][j] != 0)return 1;
 
