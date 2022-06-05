@@ -59,6 +59,6 @@ scanf("%d",&play);
 do{
 scanf("%d",&play);
 }while(play!=1);
-
+AdjustGame(board);
 }
 
