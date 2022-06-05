@@ -44,7 +44,6 @@ int SkyMax(int board[ROWS][COLS]){      //Check if the shape reach the sky
 
 void AdjustGame(int board[ROWS][COLS]){
 int i,j,p,col,k, score=0;
-int t = 0;
 
 do {
 	 for(int i = 0; i<4;i++){
@@ -82,7 +81,7 @@ do {
 
 
 	if (Bord(board) == 0)printf("You are out of bounds! Game Over !\n"); // Out of bounds left or right 
-t++;
+
 }while ((SkyMax(board) ==0) && (Bord(board) == 1));
 if(SkyMax(board) == 1)printf(" You reached the sky ! Game Over !\n");
 }
