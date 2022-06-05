@@ -10,7 +10,7 @@ int board[ROWS][COLS]={0};
 for (int j=0;j<COLS;j++){
 	board[ROWS-1][j]= 1 ; 
 }
-
+menu();
 AdjustGame(board);
 
 return 0;
