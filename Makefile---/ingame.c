@@ -1,3 +1,6 @@
+#include "ingame.h"
+
+
 int Ground(int board[ROWS][COLS]){       
    
     int count = 0,clear=0;
