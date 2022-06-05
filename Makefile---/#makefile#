@@ -10,7 +10,7 @@ ingame.o: ingame.c ingame.h
 	gcc -c ingame.c -o ingame.o
     
 main.o: main.c display.h shape.h ingame.h
-	gcc -c main2.c -o main2.o
+	gcc -c main.c -o main.o
 
 game: main.o display.o shape.o ingame.o
 	gcc main.o display.o shape.o ingame.o -o game
