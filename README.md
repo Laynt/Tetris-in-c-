@@ -4,7 +4,7 @@ compile : make
 exec ./game
 
 
-Tetris work without teh makefile 
+Tetris work without the folder makefile 
 
 if u want to run it without it just : 
 gcc main.c -o main
