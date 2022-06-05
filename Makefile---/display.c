@@ -15,7 +15,7 @@ return '#';
 void boardDisplay(int board[ROWS][COLS]){
 int i,j,x;
 	printf("\n");
-	for(i=0;i<ROWS-1;i++){
+	for(i=4;i<ROWS-1;i++){
 		printf("           |");
 	for(j=0;j<COLS;j++){
 		x=board[i][j];
