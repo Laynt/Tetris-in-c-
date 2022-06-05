@@ -61,7 +61,4 @@ scanf("%d",&play);
 }while(play!=1);
 
 }
-int main(){
-menu();
-return 0;
-}
+
