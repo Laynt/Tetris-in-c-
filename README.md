@@ -2,10 +2,6 @@ Tetris.c
 here is the tetris project we had to do.
 compile : make
 execute the tetris  : ./game 
-and then enter the number 1 two times : 
-1
-1
-
 
 
 Tetris work without the folder makefile 
